@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">Under the quay</title>
+<desc id="desc">Below wooden quay beams, an old rope hangs from a piling and an unlit lantern waits above the water.</desc>
+<rect width="900" height="500" fill="#102d38"/>
+<rect y="345" width="900" height="155" fill="#25444c"/>
+<path d="M210 50H285L274 500H225Z M665 50H730L716 500H678Z" fill="#78664e"/>
+<path d="M222 345H278L274 500H225Z M674 345H720L716 500H678Z" fill="#4c6157"/>
+<rect y="30" width="900" height="45" fill="#a58a61"/>
+<rect y="75" width="900" height="40" fill="#65543f"/>
+<path d="M160 30V75M370 30V75M580 30V75M790 30V75" stroke="#65543f" stroke-width="4"/>
+<g fill="none" stroke="#c9b587" stroke-width="8" stroke-linecap="round">
+<path d="M212 185l73 10M212 201l73 10"/>
+<path d="M274 210C270 280 345 330 410 310C470 285 395 230 274 210"/>
+<path d="M270 210c-34 43 24 46 16 12s-43-7-23 25l17 22"/>
+</g>
+<path d="M690 115V160" stroke="#bfa77b" stroke-width="3"/>
+<path d="M678 179v-10a12 12 0 0 1 24 0v10" fill="none" stroke="#bfa77b" stroke-width="4"/>
+<path d="M669 183H711L705 246H675Z" fill="#102d38" stroke="#bfa77b" stroke-width="4"/>
+<path d="M670 251H710M690 184V244" stroke="#bfa77b" stroke-width="4"/>
+<g fill="none" stroke="#739790" stroke-width="2">
+<path d="M55 365q70-12 140 0M315 395q70-12 140 0M500 365q70-12 140 0M745 410q55-12 110 0"/>
+</g>
+</svg>

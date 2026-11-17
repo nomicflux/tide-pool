@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">A clock under the water</title>
+  <desc id="desc">A clockwise cycle from high water at the top, through falling on the right, low water below, and rising on the left. One turn lasts twelve hours, twenty-five minutes and twelve seconds.</desc>
+  <rect width="720" height="520" fill="#102d38"/>
+  <g fill="none" stroke="#5c9392" stroke-width="3">
+    <circle cx="360" cy="270" r="155"/>
+    <path d="M 435 134 l 19 6 -13 15 M 497 345 l -6 19 -15 -13 M 285 407 l -19 -6 13 -15 M 223 195 l 6 -19 15 13"/>
+  </g>
+  <g fill="#ead9af" font-family="Georgia, serif" font-size="26" text-anchor="middle">
+    <text x="360" y="70">High water</text>
+    <text x="610" y="278">Falling</text>
+    <text x="360" y="487">Low water</text>
+    <text x="110" y="278">Rising</text>
+    <text x="360" y="260" font-size="28">12h 25m 12s</text>
+    <text x="360" y="293" font-size="18">one turn of the coast</text>
+  </g>
+  <g fill="#ead9af">
+    <circle cx="360" cy="115" r="7"/>
+    <circle cx="515" cy="270" r="7"/>
+    <circle cx="360" cy="425" r="7"/>
+    <circle cx="205" cy="270" r="7"/>
+  </g>
+</svg>

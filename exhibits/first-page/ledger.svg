@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">The first page of tomorrow</title>
+<desc id="desc">An open ledger. The left page, 6 November, holds 45 poems and ends with “and the name Alice listens”. The right page, 7 November, holds one poem: “midnight shelters ledger”.</desc>
+<rect width="900" height="500" fill="#102d38"/>
+<path d="M55 60Q250 30 450 70Q650 30 845 60V435Q645 405 450 445Q250 405 55 435Z" fill="#e5d8b8"/>
+<path d="M450 70V445" stroke="#b09b77" stroke-width="3"/>
+<g fill="#293e40" font-family="Georgia,serif">
+<text x="100" y="115" font-size="23">6 NOVEMBER</text>
+<text x="495" y="115" font-size="23">7 NOVEMBER</text>
+<text x="100" y="260" font-size="24"><tspan x="100">and the name</tspan><tspan x="100" dy="36">Alice listens</tspan></text>
+<text x="495" y="180" font-size="24"><tspan x="495">midnight shelters</tspan><tspan x="495" dy="36">ledger</tspan></text>
+<text x="100" y="385" font-size="18">45 poems</text>
+<text x="495" y="385" font-size="18">1 poem</text>
+</g>
+<path d="M100 150H395 M100 170H395 M100 190H395 M100 210H320" stroke="#9c9d86" stroke-width="2"/>
+</svg>

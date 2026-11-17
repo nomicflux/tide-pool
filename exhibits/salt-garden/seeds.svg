@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">Before the rain</title>
+<desc id="desc">Two seeds lie on a folded tide-table page beside an empty watering can.</desc>
+<rect width="900" height="500" fill="#102d38"/>
+<path d="M0 390Q200 365 450 390T900 385V500H0Z" fill="#37565b"/>
+<g transform="rotate(-8 310 330)">
+<path d="M145 250L430 265L470 410L170 395Z" fill="#ead9af"/>
+<path d="M285 257L305 402" stroke="#b8a985" stroke-width="2"/>
+<g fill="none" stroke="#839186" stroke-width="2">
+<path d="M175 282h220M183 305h220M191 328h220M199 351h220M207 374h220"/>
+</g>
+<ellipse cx="254" cy="319" rx="12" ry="23" fill="#846447" transform="rotate(-25 254 319)"/>
+<ellipse cx="345" cy="346" rx="12" ry="23" fill="#846447" transform="rotate(35 345 346)"/>
+<path d="M249 302q11 17 8 34M350 330q-12 13-11 32" fill="none" stroke="#c9a36c" stroke-width="2"/>
+</g>
+<g stroke="#9ab2a5" stroke-width="5" stroke-linejoin="round">
+<path d="M751 281c85-10 79 85-1 68" fill="none"/>
+<path d="M646 304L566 248L549 260L651 359" fill="#37565b"/>
+<path d="M645 258Q700 237 755 258L766 382Q704 409 634 384Z" fill="#37565b"/>
+<ellipse cx="700" cy="258" rx="55" ry="13" fill="#102d38"/>
+<path d="M565 247l-22 21" fill="none" stroke-width="10"/>
+</g>
+</svg>

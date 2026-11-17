@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+<title id="title">A chair by the kettle</title>
+<desc id="desc">An empty wooden chair faces an open door. On a nearby table, a kettle sends three wisps of steam into the dark room.</desc>
+<rect width="800" height="520" fill="#102d38"/>
+<path d="M0 365H800V520H0Z" fill="#183c46"/>
+<path d="M110 365V80H270V365" fill="#ead9af"/>
+<path d="M110 365V80L185 120V400Z" fill="#497575" stroke="#8eaf9e" stroke-width="3"/>
+<circle cx="170" cy="260" r="4" fill="#ead9af"/>
+<path d="M185 365H270L480 520H145Z" fill="#ead9af" opacity=".12"/>
+<g transform="translate(800 0) scale(-1 1)">
+<g fill="none" stroke="#bc9467" stroke-width="10" stroke-linejoin="round">
+<path d="M350 395V238H418V395 M350 275H418 M350 310H418 M350 340H461V407"/>
+</g>
+<path d="M340 332H420L470 350H385Z" fill="#d3ad78"/>
+</g>
+<g fill="#805f48"><path d="M525 308H726V325H525Z"/><path d="M545 325H557V412H545Z M695 325H707V412H695Z"/></g>
+<g fill="#89aaa1" stroke="#89aaa1" stroke-width="5" stroke-linejoin="round">
+<path d="M585 303Q570 265 601 251H640Q663 268 647 303Z"/>
+<path d="M647 274L680 252L670 284L650 292Z"/>
+<path d="M586 264C550 240 547 293 583 291" fill="none"/>
+<path d="M595 251H646"/>
+</g>
+<circle cx="619" cy="243" r="6" fill="#d3ad78"/>
+<g fill="none" stroke="#a5bcb8" stroke-width="3" stroke-linecap="round" opacity=".7">
+<path d="M602 227C581 208 620 194 600 175 M620 219C600 196 641 180 623 158 M640 228C620 209 659 195 640 178"/>
+</g>
+</svg>

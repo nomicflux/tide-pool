@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">A coast in your pocket</title>
+<desc id="desc">A folded map of the coast protrudes from a stitched coat pocket.</desc>
+<rect width="900" height="500" fill="#102d38"/>
+<path d="M175 0H725L760 500H140Z" fill="#37565b"/>
+<path d="M300 98L408 77L509 102L609 78L622 332L308 354Z" fill="#ead9af"/>
+<path d="M300 98L408 77L509 102L609 78L614 168Q558 174 535 203T463 223Q414 233 426 278L308 300Z" fill="#8aaba2"/>
+<path d="M408 77L418 346M509 102L518 339" stroke="#b5ac8d" stroke-width="2"/>
+<path d="M614 168Q558 174 535 203T463 223Q414 233 426 278L308 300" fill="none" stroke="#37565b" stroke-width="3"/>
+<path d="M446 233l-57 8" stroke="#9e7c51" stroke-width="5"/>
+<path d="M347 165q22-7 44 0M460 154q22-7 44 0M548 120q15-5 30 0" fill="none" stroke="#d7e8df" stroke-width="2"/>
+<path d="M270 264L640 240L623 426Q460 475 289 446Z" fill="#25444c"/>
+<path d="M286 280L622 258L608 413Q457 457 304 432Z" fill="none" stroke="#c9a36c" stroke-width="2" stroke-dasharray="5 7"/>
+</svg>

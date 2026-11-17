@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">The station rubbed away</title>
+<desc id="desc">A cream return ticket protrudes from a green coat pocket. Below the word RETURN, only faint fragments of the station name remain.</desc>
+<rect width="900" height="500" fill="#142f39"/>
+<path d="M250 0H650L710 500H190Z" fill="#556c61"/>
+<path d="M430 0L456 500" stroke="#344b46" stroke-width="8"/>
+<path d="M470 0L496 500" stroke="#85917a" stroke-width="2"/>
+<g transform="rotate(-9 550 280)">
+<path d="M453 103H647V347H453V233a12 12 0 0 0 0-24Z" fill="#e5d4a8"/>
+<rect x="466" y="116" width="168" height="218" fill="none" stroke="#907b57" stroke-width="2"/>
+<text x="550" y="158" text-anchor="middle" font-family="Georgia, serif" font-size="25" fill="#38423d">RETURN</text>
+<path d="M487 190h8m8 0h4m13 2h10m8-3h4m12 2h12m8-2h5m11 1h12" stroke="#8e856d" stroke-width="3" opacity=".35"/>
+<path d="M482 184q60 12 128 0M486 199q54-12 120-3" fill="none" stroke="#f0e2c0" stroke-width="5" opacity=".8"/>
+</g>
+<path d="M430 265L664 245L651 436Q550 468 445 450Z" fill="#405a51"/>
+<path d="M441 278L652 260L640 426Q551 454 457 440Z" fill="none" stroke="#a4a88b" stroke-width="2" stroke-dasharray="4 5"/>
+<path d="M430 265L664 245" stroke="#283e39" stroke-width="7"/>
+<circle cx="395" cy="183" r="12" fill="#283e39"/>
+<circle cx="403" cy="348" r="12" fill="#283e39"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+<title id="title">The empty space beside you</title>
+<desc id="desc">A cream-bordered photograph shows an empty wooden chair to the left of a bare room.</desc>
+<rect width="900" height="600" fill="#102d38"/>
+<g transform="rotate(-3 450 300)">
+<rect x="65" y="35" width="770" height="530" fill="#ead9af"/>
+<rect x="85" y="55" width="730" height="450" fill="#37565b"/>
+<path d="M85 365H815V505H85Z" fill="#25444c"/>
+<path d="M240 430L345 430L420 475L290 475Z" fill="#102d38" opacity=".5"/>
+<g fill="none" stroke="#c9a36c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+<path d="M225 340V190H325V340M225 270H325"/>
+<path d="M230 355v80M342 355v80M253 340v65M315 340v65"/>
+</g>
+<path d="M225 330H325L348 355H230Z" fill="#c9a36c" stroke="#ead9af" stroke-width="3"/>
+</g>
+</svg>

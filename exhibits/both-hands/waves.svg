@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">Both hands in the air</title>
+<desc id="desc">Two people wave to one another across the water, one near and one on the far bank.</desc>
+<rect width="900" height="500" fill="#102d38"/>
+<path d="M0 370Q180 352 350 500H0Z" fill="#37565b"/>
+<path d="M900 120Q720 130 620 220L900 250Z" fill="#37565b"/>
+<g fill="none" stroke="#527b7c" stroke-width="2">
+<path d="M310 220q65-12 130 0M455 355q65-12 130 0"/>
+</g>
+<g stroke="#c9a36c" stroke-linecap="round" stroke-linejoin="round">
+<path d="M170 379l-3 36M192 379l8 36" fill="none" stroke-width="10"/>
+<path d="M159 305L154 383H207L201 305Z" fill="#c9a36c" stroke-width="5"/>
+<path d="M162 315l-25 24-5 26M199 313l27-36-3-34" fill="none" stroke-width="12"/>
+</g>
+<g fill="#ead9af">
+<circle cx="180" cy="280" r="20"/>
+<circle cx="223" cy="237" r="9"/>
+<circle cx="132" cy="370" r="7"/>
+</g>
+<g stroke="#9ab2a5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M734 177l-4 24M748 177l5 24" fill="none" stroke-width="7"/>
+<path d="M726 119L723 180H757L753 119Z" fill="#9ab2a5" stroke-width="3"/>
+<path d="M728 126l-23-24 4-25M753 126l16 22-2 17" fill="none" stroke-width="8"/>
+</g>
+<g fill="#ead9af">
+<circle cx="740" cy="99" r="14"/>
+<circle cx="709" cy="73" r="6"/>
+<circle cx="767" cy="169" r="5"/>
+</g>
+</svg>

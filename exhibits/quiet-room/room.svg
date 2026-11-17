@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+<title id="title">The bell was not in the room</title>
+<desc id="desc">An empty blue room. Rain falls beyond a narrow window. The floor has no furniture, and no bell hangs inside.</desc>
+<rect width="800" height="500" fill="#173942"/>
+<path d="M140 75H660V340H140Z" fill="#244951"/>
+<path d="M0 500L140 340H660L800 500Z" fill="#0b2330"/>
+<path d="M0 0L140 75H660L800 0Z" fill="#102d38"/>
+<rect x="215" y="115" width="85" height="170" fill="#0b1a24" stroke="#8da79d" stroke-width="5"/>
+<path d="M215 200H300" stroke="#8da79d" stroke-width="4"/>
+<path d="M233 127L226 155M260 136L253 164M287 121L280 149M243 172L238 188M282 168L276 192M236 215L228 246M267 224L260 252M290 240L282 272M246 256L241 274" stroke="#5c9392" stroke-width="2"/>
+<path d="M215 285L300 285L428 395L260 395Z" fill="#aac8bd" opacity=".07"/>
+</svg>

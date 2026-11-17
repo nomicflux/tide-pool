@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+<title id="title">Tomorrow's paper, first edition</title>
+<desc id="desc">A cream newspaper dated 7 November 2026. Its headline reads: tomorrow someone will leave the door open becomes tomorrow the sea will return a borrowed name. A dashed fold line crosses the lower page.</desc>
+<rect width="900" height="650" fill="#102d38"/>
+<path d="M60 35H840V615L815 608L790 615L765 608L740 615H60Z" fill="#e5d8b8"/>
+<g fill="#293e40" font-family="Georgia,serif">
+<text x="450" y="105" text-anchor="middle" font-size="48">Tomorrow’s Paper</text>
+<path d="M100 128H800 M100 175H800" stroke="#293e40" stroke-width="2"/>
+<text x="100" y="158" font-size="18">7 NOVEMBER 2026</text>
+<text x="800" y="158" text-anchor="end" font-size="18">TIDE 43</text>
+<text x="100" y="245" font-size="35">
+<tspan x="100">tomorrow someone will leave</tspan>
+<tspan x="100" dy="49">the door open becomes tomorrow</tspan>
+<tspan x="100" dy="49">the sea will return a borrowed name</tspan>
+</text>
+<text x="100" y="420" font-size="19">Printed from the shore on 6 November.</text>
+<path d="M100 475H800" stroke="#798375" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="450" y="515" text-anchor="middle" font-size="18">Fold here.</text>
+</g>
+</svg>

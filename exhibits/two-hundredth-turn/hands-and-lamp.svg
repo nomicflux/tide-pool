@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">The lamp changes hands</title>
+<desc id="desc">A lit lantern stands between two outstretched hands, one arriving from each side of the dark shore.</desc>
+<rect width="900" height="500" fill="#102d38"/>
+<circle cx="450" cy="255" r="160" fill="#e6c783" opacity=".05"/>
+<circle cx="450" cy="255" r="115" fill="#e6c783" opacity=".06"/>
+<path d="M0 300L190 278L315 311L366 308Q387 309 388 322Q387 335 368 338L312 346L190 329L0 364Z" fill="#bd9677"/>
+<path d="M900 300L710 278L585 311L534 308Q513 309 512 322Q513 335 532 338L588 346L710 329L900 364Z" fill="#8ca99b"/>
+<path d="M0 286L161 269L181 341L0 378Z" fill="#607f7c"/>
+<path d="M900 286L739 269L719 341L900 378Z" fill="#8d6d50"/>
+<path d="M400 171V137Q450 81 500 137V171" fill="none" stroke="#c9a36c" stroke-width="8"/>
+<path d="M388 183L412 162H488L512 183V335H388Z" fill="#23464c" stroke="#c9a36c" stroke-width="7"/>
+<path d="M408 200H492V315H408Z" fill="#d9c386" opacity=".3"/>
+<path d="M450 294C418 279 432 247 453 223C448 248 477 260 466 281Q461 291 450 294Z" fill="#f4d68f"/>
+<path d="M390 339H510 M381 350H519" fill="none" stroke="#c9a36c" stroke-width="9" stroke-linecap="round"/>
+</svg>

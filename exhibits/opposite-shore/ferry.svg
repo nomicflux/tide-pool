@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">From becomes here</title>
+<desc id="desc">An empty wooden ferry with one oar floats between two banks.</desc>
+<rect width="900" height="500" fill="#102d38"/>
+<path d="M0 270Q70 275 100 345T260 500H0Z" fill="#37565b"/>
+<path d="M900 0H650Q725 80 790 95T900 200Z" fill="#37565b"/>
+<g fill="none" stroke="#527b7c" stroke-width="2">
+<path d="M180 140q55-12 110 0M580 390q65-12 130 0M630 250q55-12 110 0M200 380q45-12 90 0"/>
+<path d="M350 358q100 15 200 0"/>
+</g>
+<path d="M327 245Q450 285 573 245L535 322Q450 349 365 322Z" fill="#ad895e" stroke="#d6bb86" stroke-width="4"/>
+<path d="M347 252Q450 278 553 252L529 293Q450 315 371 293Z" fill="#4a5148"/>
+<path d="M402 268l-8 35M498 268l8 35" stroke="#ad895e" stroke-width="12"/>
+<path d="M378 205L514 347" stroke="#ead9af" stroke-width="7" stroke-linecap="round"/>
+<path d="M502 329l23 10 26 36-14 13-34-30Z" fill="#ead9af"/>
+</svg>

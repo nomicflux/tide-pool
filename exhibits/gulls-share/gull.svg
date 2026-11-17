@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">The gull kept the crumb</title>
+<desc id="desc">A white gull stands on a seawall with a crumb in its beak. Beside it lie a folded letter and a silver coat button.</desc>
+<rect width="900" height="500" fill="#102d38"/>
+<path d="M0 330H900V500H0Z" fill="#526765"/>
+<path d="M0 330H900" stroke="#8da79d" stroke-width="7"/>
+<path d="M0 413H900M145 335V413M475 335V413M770 335V413" stroke="#344e50" stroke-width="3"/>
+<path d="M300 273L290 326M340 275L345 326M277 329H303M333 329H359" fill="none" stroke="#c5a468" stroke-width="5" stroke-linecap="round"/>
+<path d="M175 235L253 216Q280 191 344 214L365 170Q386 143 410 167Q424 183 410 203L389 245Q365 284 296 285Q229 282 175 235Z" fill="#dfdfc9"/>
+<path d="M213 238Q282 204 343 239Q301 269 241 261Z" fill="#829995"/>
+<path d="M407 180L454 193L411 202Z" fill="#c9a36c"/>
+<circle cx="399" cy="178" r="4" fill="#102d38"/>
+<path d="M451 184L464 188L468 199L455 204L446 196Z" fill="#d6ba7b"/>
+<path d="M530 279L685 288L680 330L525 321Z" fill="#e5d8b8"/>
+<path d="M531 281L603 314L682 291" fill="none" stroke="#9d977e" stroke-width="2"/>
+<ellipse cx="752" cy="321" rx="24" ry="9" fill="#b8c9c2"/>
+<g fill="#526765"><ellipse cx="745" cy="318" rx="3" ry="2"/><ellipse cx="759" cy="318" rx="3" ry="2"/><ellipse cx="745" cy="324" rx="3" ry="2"/><ellipse cx="759" cy="324" rx="3" ry="2"/></g>
+</svg>

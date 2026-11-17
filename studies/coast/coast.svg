@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760" role="img" aria-labelledby="title desc">
+<title id="title">A coast that remembers</title>
+<desc id="desc">A map of the fictional coast. The lighthouse and observatory stand on the headland; a jetty reaches west from the harbour. The village lies east, the old station south, and the wrack line and crab's house southwest. Numbers match the thirty-eight places on the story chart.</desc>
+<rect width="1000" height="760" fill="#102d38"/>
+<path d="M1000 0H820Q730 80 775 155Q805 215 720 290Q685 340 650 360Q610 395 640 450Q680 495 735 510Q785 530 785 585Q785 650 880 680L1000 700Z" fill="#37565b" stroke="#8aa49b" stroke-width="3"/>
+<g fill="none" stroke="#5c9392" stroke-width="2" opacity=".6">
+<path d="M80 200q30 -12 60 0t60 0 M180 360q30 -12 60 0t60 0 M60 540q30 -12 60 0t60 0 M350 660q30 -12 60 0t60 0 M570 600q30 -12 60 0t60 0"/>
+</g>
+<path d="M650 450H350" stroke="#bc9467" stroke-width="10"/>
+<path d="M650 450H350" stroke="#ead9af" stroke-width="2" stroke-dasharray="2 15"/>
+<g fill="#a5bcb8" font-family="Georgia, serif" font-size="18" letter-spacing="2">
+<text x="100" y="285">THE OPEN WATER</text>
+<text x="815" y="80">HEADLAND</text>
+<text x="425" y="365">THE HARBOUR</text>
+<text x="790" y="455">THE VILLAGE</text>
+<text x="785" y="720">OLD STATION</text>
+<text x="120" y="720">THE SHORE</text>
+</g>
+<g fill="#ead9af" font-family="Georgia, serif" font-size="22" text-anchor="middle">
+<text x="80" y="78" font-size="30" text-anchor="start">A coast that remembers</text>
+<path d="M90 145V105L84 116M90 105L96 116" fill="none" stroke="#ead9af" stroke-width="2"/>
+<text x="90" y="96" font-size="14">N</text>
+<rect x="777.5" y="124" width="45" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="800" y="152">8</text>
+<rect x="750.0" y="214" width="70" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="785" y="242">1/10</text>
+<rect x="712.5" y="279" width="75" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="750" y="307">13/30</text>
+<rect x="192.5" y="304" width="45" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="215" y="332">4</text>
+<rect x="617.5" y="324" width="45" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="640" y="352">11</text>
+<rect x="575" y="429" width="150" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="650" y="457">15/20/23/38</text>
+<rect x="435" y="429" width="110" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="490" y="457">16/31/32</text>
+<rect x="327.5" y="429" width="45" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="350" y="457">17</text>
+<rect x="477.5" y="499" width="45" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="500" y="527">2</text>
+<rect x="750" y="484" width="70" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="785" y="512">7/28</text>
+<rect x="827.5" y="484" width="45" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="850" y="512">5</text>
+<rect x="880" y="484" width="110" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="935" y="512">9/14/27</text>
+<rect x="720" y="554" width="110" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="775" y="582">12/33/34</text>
+<rect x="845" y="554" width="110" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="900" y="582">18/24/25</text>
+<rect x="810.0" y="639" width="100" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="860" y="667">3/21/26</text>
+<rect x="155" y="644" width="110" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="210" y="672">6/19/29</text>
+<rect x="937.5" y="609" width="45" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="960" y="637">22</text>
+<rect x="855" y="349" width="110" height="38" rx="10" fill="#102d38" stroke="#d3ad78" stroke-width="2"/><text x="910" y="377">35/36/37</text>
+</g>
+</svg>

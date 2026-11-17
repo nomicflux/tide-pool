@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+<title id="title">Please wash separately</title>
+<desc id="desc">A cloth full of moonlight and stars dries on a clothesline. Two wooden pins hold it like small birds perched above the borrowed sky.</desc>
+<rect width="900" height="480" fill="#102d38"/>
+<path d="M65 110Q450 175 835 110" fill="none" stroke="#a5bcb8" stroke-width="3"/>
+<path d="M210 144Q450 170 690 144L670 407Q590 440 520 414T380 420T230 407Z" fill="#244859" stroke="#5c9392" stroke-width="2"/>
+<circle cx="450" cy="263" r="58" fill="#ead9af"/>
+<circle cx="474" cy="245" r="55" fill="#244859"/>
+<g fill="#ead9af">
+<path d="M310 215l4 11 11 4-11 4-4 11-4-11-11-4 11-4Z"/>
+<path d="M580 255l3 9 9 3-9 3-3 9-3-9-9-3 9-3Z"/>
+<circle cx="345" cy="340" r="3"/><circle cx="570" cy="360" r="3"/>
+</g>
+<g fill="#bc9467" stroke="#d3ad78" stroke-width="2" stroke-linejoin="round">
+<path d="M245 166L226 113L249 137L272 114L256 167Z"/>
+<path d="M645 166L626 113L649 137L672 114L656 167Z"/>
+</g>
+</svg>

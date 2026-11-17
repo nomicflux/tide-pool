@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="280" viewBox="0 0 1100 280">
+<title>Tide Pool — a coast that remembers</title>
+<rect width="1100" height="280" fill="#102d38"/>
+<g fill="#ead9af" font-family="Georgia, serif">
+<text x="65" y="75" font-size="32">A coast that remembers</text>
+<text x="65" y="110" font-size="16">calm water</text>
+</g>
+<path d="M 65 210 Q 300 175 550 210 T 1035 210" fill="none" stroke="#5c9392"><animate attributeName="d" values="M 65 210 Q 300 175 550 210 T 1035 210;M 65 210 Q 300 230 550 210 T 1035 210;M 65 210 Q 300 175 550 210 T 1035 210" dur="9s" repeatCount="indefinite"/></path>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+<title id="title">Room for a third</title>
+<desc id="desc">Two coats hang on a wooden rack. The third brass hook is empty. Small pools of rain gather beneath the coats.</desc>
+<rect width="800" height="500" fill="#102d38"/>
+<rect x="65" y="105" width="670" height="28" rx="4" fill="#805f48"/>
+<g fill="none" stroke="#d3ad78" stroke-width="7" stroke-linecap="round">
+<path d="M180 119V158Q180 178 197 168 M420 119V158Q420 178 437 168 M660 119V158Q660 178 677 168"/>
+</g>
+<path d="M160 175L125 190L80 284L115 301L137 261L123 406Q180 425 237 406L223 261L245 301L280 284L235 190L200 175Z" fill="#b79161"/>
+<path d="M160 175L180 211L200 175 M180 211V410" fill="none" stroke="#795d43" stroke-width="3"/>
+<path d="M400 175L365 190L320 284L355 301L377 261L363 406Q420 425 477 406L463 261L485 301L520 284L475 190L440 175Z" fill="#75958d"/>
+<path d="M400 175L420 211L440 175 M420 211V410" fill="none" stroke="#426467" stroke-width="3"/>
+
+<g fill="none" stroke="#5c9392" stroke-width="2">
+<ellipse cx="180" cy="453" rx="73" ry="8"/>
+<ellipse cx="420" cy="453" rx="73" ry="8"/>
+<path d="M150 429V436 M217 428V439 M390 430V438 M450 429V435"/>
+</g>
+</svg>

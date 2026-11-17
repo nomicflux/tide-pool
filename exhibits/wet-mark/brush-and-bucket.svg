@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">The brush waits</title>
+<desc id="desc">Two white strokes mark a stone harbour wall. A paintbrush leans in an open bucket on the quay beside the water.</desc>
+<rect width="900" height="500" fill="#183945"/>
+<path d="M0 0H670V384H0Z" fill="#68716d"/>
+<g fill="none" stroke="#485956" stroke-width="4">
+<path d="M0 85H670M0 188H670M0 291H670M180 0V85M480 0V85M315 85V188M115 188V291M470 188V291M285 291V384"/>
+</g>
+<path d="M110 144L395 142L397 151L108 154Z M110 319L397 321L397 329L108 328Z" fill="#eee8d5"/>
+<path d="M382 151v15" stroke="#eee8d5" stroke-width="3"/>
+<path d="M0 384H720L790 450H0Z" fill="#af9e80"/>
+<path d="M0 450H790V470H0Z" fill="#756e5c"/>
+<g transform="translate(550 320)">
+<path d="M-40 24V-4a40 35 0 0 1 80 0V24" fill="none" stroke="#c5c0a6" stroke-width="4"/>
+<path d="M-48 17L-38 108Q0 124 38 108L48 17Z" fill="#bdc2af"/>
+<ellipse cy="17" rx="48" ry="13" fill="#e9e3ce"/>
+<ellipse cy="17" rx="40" ry="8" fill="#f6efda"/>
+<path d="M12 18L48-98" stroke="#79563c" stroke-width="12" stroke-linecap="round"/>
+<path d="M12 18L20-8" stroke="#d5d2bb" stroke-width="19"/>
+<path d="M8 31L13 16" stroke="#eee8d5" stroke-width="21"/>
+</g>
+<path d="M749 340q48-10 96 0M785 405q35-8 70 0" fill="none" stroke="#688f91" stroke-width="2"/>
+</svg>

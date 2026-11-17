@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-labelledby="title desc">
+<title id="title">A ticket for yesterday, number 35</title>
+<desc id="desc">A paper ticket bearing the thirty-fifth poem: a ticket to the hour before goodbye dreams of a platform waiting for its train. Its tear-off stub reads Still Here.</desc>
+<rect width="900" height="400" fill="#102d38"/>
+<rect x="35" y="40" width="830" height="320" rx="12" fill="#ead9af"/>
+<path d="M685 55V345" stroke="#805f48" stroke-width="2" stroke-dasharray="5 8"/>
+<circle cx="685" cy="40" r="16" fill="#102d38"/><circle cx="685" cy="360" r="16" fill="#102d38"/>
+<g fill="#183e48" font-family="Georgia, serif">
+<text x="75" y="105" font-size="30">A ticket for yesterday</text>
+<path d="M75 126H635" stroke="#805f48"/>
+<text x="75" y="188" font-size="25">a ticket to the hour before goodbye</text>
+<text x="75" y="228" font-size="25">dreams of a platform waiting for its train</text>
+<text x="75" y="316" font-size="18">THE COAST · 6 NOVEMBER 2026</text>
+<g text-anchor="middle"><text x="775" y="128" font-size="52">35</text>
+<text x="775" y="230" font-size="22">STILL</text><text x="775" y="263" font-size="22">HERE</text></g>
+</g>
+</svg>

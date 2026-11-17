@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440">
+<title>Eight moons over one shore</title>
+<rect width="1000" height="440" fill="#0b1a24"/>
+<g fill="#ead9af" font-family="Georgia, serif" text-anchor="middle">
+<text x="500" y="55" font-size="28">Eight moons over one shore</text>
+<g transform="translate(-875 70)"><g class="moon" transform="translate(1000 60) scale(1 1)"><path fill="#f6e7b8" d="M 0 -26 A 26 26 0 0 1 0 26 A 26.0000 26 0 0 0 0 -26 Z"/></g></g>
+<text x="125" y="195" font-size="18">New moon</text>
+<g transform="translate(-625 70)"><g class="moon" transform="translate(1000 60) scale(1 1)"><path fill="#f6e7b8" d="M 0 -26 A 26 26 0 0 1 0 26 A 18.3848 26 0 0 0 0 -26 Z"/></g></g>
+<text x="375" y="195" font-size="18">Waxing crescent</text>
+<g transform="translate(-375 70)"><g class="moon" transform="translate(1000 60) scale(1 1)"><path fill="#f6e7b8" d="M 0 -26 A 26 26 0 0 1 0 26 A 0.0000 26 0 0 0 0 -26 Z"/></g></g>
+<text x="625" y="195" font-size="18">First quarter</text>
+<g transform="translate(-125 70)"><g class="moon" transform="translate(1000 60) scale(1 1)"><path fill="#f6e7b8" d="M 0 -26 A 26 26 0 0 1 0 26 A 18.3848 26 0 0 1 0 -26 Z"/></g></g>
+<text x="875" y="195" font-size="18">Waxing gibbous</text>
+<g transform="translate(-875 230)"><g class="moon" transform="translate(1000 60) scale(-1 1)"><path fill="#f6e7b8" d="M 0 -26 A 26 26 0 0 1 0 26 A 26.0000 26 0 0 1 0 -26 Z"/></g></g>
+<text x="125" y="355" font-size="18">Full moon</text>
+<g transform="translate(-625 230)"><g class="moon" transform="translate(1000 60) scale(-1 1)"><path fill="#f6e7b8" d="M 0 -26 A 26 26 0 0 1 0 26 A 18.3848 26 0 0 1 0 -26 Z"/></g></g>
+<text x="375" y="355" font-size="18">Waning gibbous</text>
+<g transform="translate(-375 230)"><g class="moon" transform="translate(1000 60) scale(-1 1)"><path fill="#f6e7b8" d="M 0 -26 A 26 26 0 0 1 0 26 A 0.0000 26 0 0 1 0 -26 Z"/></g></g>
+<text x="625" y="355" font-size="18">Last quarter</text>
+<g transform="translate(-125 230)"><g class="moon" transform="translate(1000 60) scale(-1 1)"><path fill="#f6e7b8" d="M 0 -26 A 26 26 0 0 1 0 26 A 18.3848 26 0 0 0 0 -26 Z"/></g></g>
+<text x="875" y="355" font-size="18">Waning crescent</text>
+</g></svg>

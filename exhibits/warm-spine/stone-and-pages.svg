@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">A spine still warm</title>
+<desc id="desc">An open hand-bound book lies under a smooth beach stone. The far corner of a page curls upward.</desc>
+<rect width="900" height="500" fill="#d7e8df"/>
+<path d="M125 156Q290 125 450 168Q610 125 775 156V422Q610 392 450 434Q290 392 125 422Z" fill="#657e74"/>
+<path d="M135 150Q290 120 450 160Q610 120 765 150V410Q610 380 450 420Q290 380 135 410Z" fill="#f4ecd8"/>
+<path d="M450 160V420" stroke="#b49b74" stroke-width="3"/>
+<path d="M443 180h14m-14 35h14m-14 35h14m-14 35h14m-14 35h14m-14 35h14m-14 35h14" stroke="#9e7c51" stroke-width="3"/>
+<g fill="none" stroke="#b7bda6" stroke-width="2">
+<path d="M180 200q110-15 225 5M180 225q110-15 225 5M180 250q110-15 225 5M180 345q110-15 225 5M180 370q110-15 225 5"/>
+<path d="M495 205q105-18 205-7M495 230q105-18 205-7M495 255q105-18 205-7M495 280q105-18 205-7M495 305q105-18 205-7M495 330q105-18 205-7M495 355q105-18 175-10"/>
+</g>
+<path d="M710 146Q742 145 765 150L710 205Q722 177 710 146Z" fill="#d8c8a6"/>
+<ellipse cx="290" cy="305" rx="51" ry="27" fill="#71867f"/>
+<path d="M263 298q22-15 47-4" fill="none" stroke="#9eb0a1" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+<title id="title">The print comes into focus</title>
+<desc id="desc">A faint, unidentifiable face appears on a pale photograph in a darkroom tray under a red lamp.</desc>
+<rect width="900" height="600" fill="#281f28"/>
+<path d="M0 455L900 410V600H0Z" fill="#44313b"/>
+<path d="M150 240L730 210L780 495L120 530Z" fill="#704b53" stroke="#ac7b78" stroke-width="5" stroke-linejoin="round"/>
+<path d="M173 258L714 230L755 476L145 508Z" fill="#352a36"/>
+<path d="M276 274L580 258L619 457L253 476Z" fill="#d6d1bf"/>
+<g fill="#78847c" opacity=".4">
+<ellipse cx="434" cy="338" rx="35" ry="43"/>
+<path d="M355 444Q356 385 435 384Q514 381 526 435Z"/>
+</g>
+<path d="M416 327h8M435 327l-3 19h6M425 360q10 3 19-1" fill="none" stroke="#78847c" stroke-width="2" opacity=".45"/>
+<path d="M690 0V90" stroke="#af7d70" stroke-width="4"/>
+<path d="M661 91H719L728 120H652Z" fill="#af7d70"/>
+<circle cx="690" cy="126" r="18" fill="#e68772"/>
+<circle cx="690" cy="126" r="43" fill="#e68772" opacity=".08"/>
+</svg>

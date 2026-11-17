@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+<title id="title">The name Alice listens</title>
+<desc id="desc">A cream paper tag hangs by a string from a brass hook. Its writing reads “and the name Alice listens”.</desc>
+<rect width="800" height="420" fill="#102d38"/>
+<path d="M400 35V75Q400 100 421 86" fill="none" stroke="#c9a36c" stroke-width="8" stroke-linecap="round"/>
+<path d="M410 91L365 157M410 91L427 157" fill="none" stroke="#b8c4ae" stroke-width="2"/>
+<path d="M130 150H670V340H130Z" fill="#e5d8b8"/>
+<circle cx="365" cy="160" r="5" fill="#102d38"/>
+<circle cx="427" cy="160" r="5" fill="#102d38"/>
+<text x="400" y="255" text-anchor="middle" fill="#293e40" font-family="Georgia,serif" font-size="31">and the name Alice listens</text>
+</svg>

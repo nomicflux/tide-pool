@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 110 900 360" role="img" aria-labelledby="title desc">
+<title id="title">Journeys repaired while you wait</title>
+<desc id="desc">A winding grey road lies across a brown workbench. Five gold stitches hold a tear together. Loose thread curls toward a needle.</desc>
+<rect width="900" height="500" fill="#102d38"/>
+<rect x="45" y="140" width="810" height="305" rx="12" fill="#705747"/>
+<path d="M45 353 Q200 193 390 271 L437 285 L453 303 L436 318 L454 337 L441 356 Q230 290 45 435Z" fill="#929d95"/>
+<path d="M474 293 L490 311 L473 327 L490 344 L478 366 Q670 437 855 242 V154 Q660 346 474 293Z" fill="#929d95"/>
+<path d="M55 395 Q240 238 430 322 M495 330 Q670 390 846 207" fill="none" stroke="#ded7b7" stroke-width="3" stroke-dasharray="16 16"/>
+<g stroke="#e4bf79" stroke-width="3" stroke-linecap="round">
+<path d="M427 290L487 300 M437 306L495 316 M425 323L483 334 M440 339L495 350 M433 354L481 370"/>
+</g>
+<path d="M481 370 Q551 463 618 407 T735 398" fill="none" stroke="#e4bf79" stroke-width="2"/>
+<path d="M735 398L796 365" stroke="#e0e9e4" stroke-width="3" stroke-linecap="round"/>
+</svg>

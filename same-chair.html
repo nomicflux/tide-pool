@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The same chair</title><style>
+body{max-width:56rem;margin:auto;padding:1.5rem;background:#102d38;color:#ead9af;font:1.15rem/1.6 Georgia,serif}
+a{color:inherit}figure{position:relative;margin:0;--light:0%}img{display:block;width:100%;height:auto}
+.daylight{position:absolute;inset:0;clip-path:inset(0 calc(100% - var(--light)) 0 0)}
+label{display:block;margin-top:1rem}input{display:block;width:100%;margin:1rem 0;accent-color:#c9a36c}
+section{margin:3rem 0}blockquote{margin:1rem 0;font-size:1.3rem}
+button{font:inherit;padding:.5rem 1rem;background:#183e48;color:#ead9af;border:1px solid #8eaf9e;cursor:pointer}
+button:hover,button:focus-visible{background:#28535d}
+</style></head><body>
+<a href="/">Back to the shore</a><h1>The same chair</h1>
+<figure id="print">
+<img src="/exhibits/departures/portrait.svg" alt="An empty chair at the left of a dark room.">
+<img class="daylight" src="/exhibits/warm-chair/daylight.svg" alt="The same chair in afternoon sunlight.">
+</figure>
+<label for="light">Afternoon light</label>
+<input id="light" type="range" min="0" max="100" value="0">
+<section><h2>Bob’s departure</h2><blockquote>the chair where you almost sat shelters the hand just outside the frame</blockquote></section>
+<section><h2>Alice’s return</h2><blockquote>almost dreams of someone has stepped back into the light</blockquote></section>
+<section><h2>Bob’s afternoon</h2><blockquote>the afternoon light finds the chair already warm waits beneath the photographer lowers the camera and smiles</blockquote></section>
+<form method="post" action="/"><button name="say" value="read 33">Sit for the photographer</button></form>
+<script>
+const light = document.getElementById('light');
+const print = document.getElementById('print');
+light.addEventListener('input', () => print.style.setProperty('--light', light.value + '%'));
+</script>
+<nav aria-label="More from the coast"><p><a href="/three-rooms.html">Three rooms</a> · <a href="/barefoot.html">Barefoot</a> · <a href="/tomorrow.html">Tomorrow</a> · <a href="/three-rows.html">Three rows</a> · <a href="/sketchbook.html">Sketchbook</a></p></nav>
+</body></html>

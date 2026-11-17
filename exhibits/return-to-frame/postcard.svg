@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="658" viewBox="0 0 1100 658">
+<title>Tide Pool — a coast that remembers</title>
+<rect width="1100" height="658" fill="#102d38"/>
+<g fill="#ead9af" font-family="Georgia, serif">
+<text x="65" y="75" font-size="32">A coast that remembers</text>
+<text x="65" y="110" font-size="16">calm water</text>
+<g>
+<circle cx="110" cy="175" r="3"/>
+<text x="110" y="205" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="110" dy="0">you</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="320" cy="187" r="3"/>
+<text x="320" y="217" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="320" dy="0">just</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="530" cy="199" r="3"/>
+<text x="530" y="229" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="530" dy="0">sat</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="7s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="740" cy="175" r="3"/>
+<text x="740" y="205" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="740" dy="0">hand</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="8s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="950" cy="187" r="3"/>
+<text x="950" y="217" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="950" dy="0">the</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="110" cy="299" r="3"/>
+<text x="110" y="329" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="110" dy="0">where</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="320" cy="275" r="3"/>
+<text x="320" y="305" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="320" dy="0">the</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="7s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="530" cy="287" r="3"/>
+<text x="530" y="317" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="530" dy="0">the empty chair</tspan><tspan x="530" dy="26">keeps its shape</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="8s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="740" cy="299" r="3"/>
+<text x="740" y="329" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="740" dy="0">the</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="950" cy="275" r="3"/>
+<text x="950" y="305" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="950" dy="0">outside</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="110" cy="413" r="3"/>
+<text x="110" y="443" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="110" dy="0">shelters</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="7s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="320" cy="425" r="3"/>
+<text x="320" y="455" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="320" dy="0">chair</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="8s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="530" cy="401" r="3"/>
+<text x="530" y="431" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="530" dy="0">almost</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="740" cy="413" r="3"/>
+<text x="740" y="443" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="740" dy="0">someone has</tspan><tspan x="740" dy="26">stepped back</tspan><tspan x="740" dy="26">into the light</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6s" repeatCount="indefinite"/>
+</g>
+<g>
+<circle cx="950" cy="425" r="3"/>
+<text x="950" y="455" text-anchor="middle" font-family="monospace" font-size="20"><tspan x="950" dy="0">frame</tspan></text>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="7s" repeatCount="indefinite"/>
+</g>
+</g>
+<path d="M 65 588 Q 300 553 550 588 T 1035 588" fill="none" stroke="#5c9392"><animate attributeName="d" values="M 65 588 Q 300 553 550 588 T 1035 588;M 65 588 Q 300 608 550 588 T 1035 588;M 65 588 Q 300 553 550 588 T 1035 588" dur="9s" repeatCount="indefinite"/></path>
+</svg>

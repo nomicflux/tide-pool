@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+<title id="title">Crooked and on time</title>
+<desc id="desc">A bent green seedling rises from dark soil flecked with salt.</desc>
+<rect width="900" height="500" fill="#102d38"/>
+<path d="M0 375Q230 350 450 380T900 370V500H0Z" fill="#37565b"/>
+<path d="M459 385C429 348 466 319 442 280Q430 266 434 250" fill="none" stroke="#a6bd91" stroke-width="8" stroke-linecap="round"/>
+<path d="M445 292C389 295 365 263 364 233C411 234 444 254 445 292Z" fill="#7e9e7f"/>
+<path d="M434 250C440 202 476 183 512 191C506 232 477 252 434 250Z" fill="#adc396"/>
+<g fill="#c8d1b2" opacity=".65">
+<path d="M153 409l5-7 7 6-5 6ZM284 435l5-6 6 5-5 7ZM544 419l5-7 6 5-5 6ZM703 397l7-5 4 6-6 5ZM790 453l5-6 6 6-6 5Z"/>
+</g>
+<path d="M416 385q23-10 47 2t37-2" fill="none" stroke="#102d38" stroke-width="5" stroke-linecap="round"/>
+</svg>

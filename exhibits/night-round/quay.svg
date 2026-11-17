@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">After the night round</title>
+  <desc id="desc">A lit lantern and a coil of rope rest on the quay above dark water.</desc>
+  <rect width="900" height="500" fill="#102d38"/>
+  <path d="M0 360H900V500H0Z" fill="#25444c"/>
+  <path d="M0 360H900" stroke="#718078" stroke-width="3"/>
+  <g fill="none" stroke="#527078" stroke-width="2">
+    <path d="M50 270h130m40 28h100m290-45h140m-85 61h170"/>
+  </g>
+  <ellipse cx="380" cy="365" rx="120" ry="20" fill="#bfa065" opacity=".13"/>
+  <g transform="translate(0 13)">
+  <path d="M355 207v-27a25 25 0 0 1 50 0v27" fill="none" stroke="#c9a36c" stroke-width="7"/>
+  <path d="M344 217h72l-10 123h-52Z" fill="#ead9af" opacity=".18"/>
+  <path d="M380 258c-28 35-14 56 0 56s28-20 0-56" fill="#efd391"/>
+  <g fill="none" stroke="#c9a36c" stroke-width="7" stroke-linejoin="round">
+    <path d="M342 217h76l-12 123h-52Z"/>
+    <path d="M342 217l17-16h42l17 16M350 347h60"/>
+  </g>
+  </g>
+  <g fill="none" stroke="#bfa77b" stroke-width="7" stroke-linecap="round">
+    <ellipse cx="581" cy="372" rx="76" ry="23"/>
+    <ellipse cx="581" cy="369" rx="55" ry="15"/>
+    <ellipse cx="581" cy="366" rx="32" ry="7"/>
+    <path d="M654 374c40 8 56 25 44 41s-43 13-55 27"/>
+  </g>
+</svg>

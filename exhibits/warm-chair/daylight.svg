@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+<title id="title">The chair is warm</title>
+<desc id="desc">The same empty wooden chair stands in a pale room crossed by afternoon sunlight.</desc>
+<rect width="900" height="600" fill="#d7e8df"/>
+<g transform="rotate(-3 450 300)">
+<rect x="65" y="35" width="770" height="530" fill="#f2e8ce"/>
+<rect x="85" y="55" width="730" height="450" fill="#c4d0be"/>
+<path d="M85 365H815V505H85Z" fill="#a1b4a5"/>
+<path d="M135 55H345L545 505H335Z" fill="#fff0b8" opacity=".65"/>
+<path d="M240 430L345 430L420 475L290 475Z" fill="#607c75" opacity=".5"/>
+<g fill="none" stroke="#9e7c51" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+<path d="M225 340V190H325V340M225 270H325"/>
+<path d="M230 355v80M342 355v80M253 340v65M315 340v65"/>
+</g>
+<path d="M225 330H325L348 355H230Z" fill="#9e7c51"/>
+</g>
+</svg>
