@@ -51,11 +51,11 @@ def atlas(chart, shelf, exhibits):
     others = "".join(section(name, title, shelf[name]) for name, title in uncharted)
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><title>Atlas of a coast that remembers</title>{STYLE}</head>
-<body><p><a href="http://127.0.0.1:8000/">Back to the browser shore</a></p>
+<body><p><a href="/">Back to the browser shore</a></p>
 <h1>Atlas of a coast that remembers</h1>
 <p>To play a walk in Tide Pool, type <code>read</code> followed by its place
 number or story name.</p>
 <pre>{escape(drawing)}</pre>
 <nav aria-label="Contents"><ul>{contents}</ul></nav>
 {charted}<h2>Elsewhere</h2>{others}{exhibit_list(exhibits)}
-<p><a href="http://127.0.0.1:8000/">Back to the browser shore</a></p></body></html>"""
+<p><a href="/">Back to the browser shore</a></p></body></html>"""

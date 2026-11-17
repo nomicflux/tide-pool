@@ -13,6 +13,7 @@ Use Python 3; no dependencies.
 
 - **Terminal:** `python3 tidepool.py` (Up recalls earlier commands; Tab completes commands, the story or hall after `read` or `visit`, remembered words after `trace` and its kin, and `today`, `yesterday` or a kept day after `diary`)
 - **Browser:** `python3 webshore.py`, then open [the shore](http://127.0.0.1:8000/) (the command field suggests commands, stories and halls as you type).
+- **Online:** [the shore on GitHub Pages](https://nomicflux.github.io/tide-pool/) is the browser shore running in your own browser; your poems, bottles, signatures and halls stay in that browser.
 
 ## Your first five minutes
 

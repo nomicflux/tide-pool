@@ -2,6 +2,7 @@
 
 import os
 import re
+import shutil
 from html import escape
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
@@ -220,6 +221,54 @@ def served(folder, path):
     return "", ""
 
 
+def show(shore):
+    now = tidepool.now()
+    picture = svg(shore.pool.words, shore.pool.weather, daylight_at(now))
+    onward = say_button("", "continue the story") if shore.story else ""
+    recording = sound_for(os.path.join(shore.folder, "tide.wav"))
+    sound = onward + recording + shown_for(shore.last[1], shore.folder)
+    links = keepsakes(shore.folder) + gallery(os.path.join(shore.folder, "exhibits"))
+    header = moon_icon(age(now) / SYNODIC_DAYS) + paragraphs(welcome(now, shore.shore))
+    if Path(shore.folder, "three-rooms.html").is_file():
+        header += '<p><a href="/three-rooms.html" style="color:inherit">Begin with three rooms.</a></p>'
+    return page(shore.last[0], shore.last[1], picture, sound, links, header).encode("utf-8")
+
+
+def fetched(shore, path):
+    """The body and content type the shore answers a path with; None where it keeps nothing."""
+    if path == "/atlas.html":
+        chart_atlas(shore.shore)
+    file, kind = served(shore.folder, path)
+    if os.path.isfile(file):
+        return Path(file).read_bytes(), kind
+    if path == "/":
+        return show(shore), "text/html; charset=utf-8"
+    return None
+
+
+def heard(shore, form):
+    """Speak a posted form's command into the shore, keeping the exchange for the next page."""
+    command = command_of(form)
+    shore.last[:] = [command, reply_to(shore.pool, command, shore.shore, shore.story)]
+
+
+HELD = ("shore.txt", "sea.txt", "guestbook.txt")
+
+
+def keep(folder, kept, shipped):
+    """Copy the visitor's poems, bottles, signatures, and the halls they hung beyond `shipped` into `kept`."""
+    for name in HELD:
+        shutil.copy(os.path.join(folder, name), kept)
+    hall = os.path.join(folder, "exhibits")
+    for name in set(halls(hall)) - set(shipped):
+        shutil.copytree(os.path.join(hall, name), os.path.join(kept, "exhibits", name), dirs_exist_ok=True)
+
+
+def restore(kept, folder):
+    """Lay what a visitor kept back over the coast."""
+    shutil.copytree(kept, folder, dirs_exist_ok=True)
+
+
 class ShoreHandler(BaseHTTPRequestHandler):
     """Answers the browser. Each server's subclass, made by handler(), carries its own
     pool, shore, folder, open story, and last exchange as class attributes."""
@@ -231,36 +280,17 @@ class ShoreHandler(BaseHTTPRequestHandler):
     last: list
 
     def do_GET(self):
-        path = urlparse(self.path).path
-        if path == "/atlas.html":
-            chart_atlas(self.shore)
-        file, kind = served(self.folder, path)
-        if os.path.isfile(file):
-            self.send(Path(file).read_bytes(), kind)
-        elif path == "/":
-            self.send(self.show(), "text/html; charset=utf-8")
+        found = fetched(self, urlparse(self.path).path)
+        if found:
+            self.send(*found)
         else:
             self.send(b"", "text/plain", 404)
 
     def do_POST(self):
-        form = self.rfile.read(int(self.headers["Content-Length"])).decode("utf-8")
-        command = command_of(form)
-        self.last[:] = [command, reply_to(self.pool, command, self.shore, self.story)]
+        heard(self, self.rfile.read(int(self.headers["Content-Length"])).decode("utf-8"))
         self.send_response(303)
         self.send_header("Location", "/")
         self.end_headers()
-
-    def show(self):
-        now = tidepool.now()
-        picture = svg(self.pool.words, self.pool.weather, daylight_at(now))
-        onward = say_button("", "continue the story") if self.story else ""
-        recording = sound_for(os.path.join(self.folder, "tide.wav"))
-        sound = onward + recording + shown_for(self.last[1], self.folder)
-        links = keepsakes(self.folder) + gallery(os.path.join(self.folder, "exhibits"))
-        header = moon_icon(age(now) / SYNODIC_DAYS) + paragraphs(welcome(now, self.shore))
-        if Path(self.folder, "three-rooms.html").is_file():
-            header += '<p><a href="/three-rooms.html" style="color:inherit">Begin with three rooms.</a></p>'
-        return page(self.last[0], self.last[1], picture, sound, links, header).encode("utf-8")
 
     def send(self, body, kind, status=200):
         self.send_response(status)

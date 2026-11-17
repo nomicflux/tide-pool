@@ -19,7 +19,7 @@ from tidepool import COMMANDS, TidePool, choices_after, respond
 from exhibits import EXTRAS, KEPT, halls
 from webshore import (GALLERY_LINKS, HEARD, KEEPSAKES, OPTIONAL_LINKS, QUICK, SHOWN, ShoreHandler, command_list, command_of, dated, drawings, exhibit_row, handler, moon_icon, next_beat, open_story, page,
                       paragraphs, say_button, sea_buttons, shown, shown_for, story_buttons, reply_to,
-                      gallery, keepsakes, served, sound_for)
+                      gallery, keepsakes, served, sound_for, fetched, heard, keep, restore)
 
 NEAP = patch.object(tidepool, "now", return_value=datetime(2026, 11, 17, 11, 48, tzinfo=timezone.utc))
 QUIET = patch.object(ShoreHandler, "log_message")
@@ -375,6 +375,45 @@ class WebshoreTest(unittest.TestCase):
                      "/exhibits/first-night/../../tidepool.py", "/tidepool.py"):
             with self.subTest(path=path):
                 self.assertEqual(served("/sea", path), ("", ""))
+
+
+class WithoutServerTest(unittest.TestCase):
+    def setUp(self):
+        self.dir = tempfile.TemporaryDirectory()
+        self.shore = handler(TidePool(), os.path.join(self.dir.name, "shore.txt"))
+
+    def tearDown(self):
+        self.dir.cleanup()
+
+    def test_heard_speaks_a_posted_form_into_the_pool(self):
+        heard(self.shore, "say=drop+lantern")
+        self.assertEqual(self.shore.pool.words, ["lantern"])
+        self.assertEqual(self.shore.last[0], "drop lantern")
+
+    def test_fetched_answers_the_page_keepsakes_and_nothing_else(self):
+        heard(self.shore, "say=drop+lantern")
+        body, kind = fetched(self.shore, "/")
+        self.assertEqual(kind, "text/html; charset=utf-8")
+        self.assertIn(b"shore&gt; drop lantern", body)
+        self.assertIsNone(fetched(self.shore, "/tide.wav"))
+        heard(self.shore, "say=listen")
+        self.assertEqual(fetched(self.shore, "/tide.wav")[1], "audio/wav")
+        self.assertIsNone(fetched(self.shore, "/favicon.ico"))
+
+    def test_keep_then_restore_brings_back_the_shore_and_only_new_halls(self):
+        coast, kept = Path(self.dir.name), Path(self.dir.name, "kept")
+        kept.mkdir()
+        for name in ("shore.txt", "sea.txt", "guestbook.txt"):
+            (coast / name).write_text(f"{name} of this visit")
+        hall_with_catalogue(str(coast / "exhibits"), "shipped-hall", "Shipped")
+        hall_with_catalogue(str(coast / "exhibits"), "new-hall", "New")
+        keep(str(coast), str(kept), ["shipped-hall"])
+        self.assertFalse((kept / "exhibits" / "shipped-hall").exists())
+        later = Path(self.dir.name, "later")
+        later.mkdir()
+        restore(str(kept), str(later))
+        self.assertEqual((later / "sea.txt").read_text(), "sea.txt of this visit")
+        self.assertEqual(halls(str(later / "exhibits")), ["new-hall"])
 
 
 class ServerTest(unittest.TestCase):

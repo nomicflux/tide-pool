@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tide Pool</title>
+<script src="https://cdn.jsdelivr.net/pyodide/v314.0.8/full/pyodide.js"></script>
+</head>
+<body style="background:#102d38;color:#ead9af;font-family:Georgia,serif;padding:2em">
+<h1>Tide Pool</h1>
+<p>The tide is coming in…</p>
+<script>
+const COAST = "/coast";
+const KEPT = "/kept";
+let pyodide, webshore, shore, shipped;
+
+function sync(populate) {
+  return new Promise((done, fail) => pyodide.FS.syncfs(populate, (err) => err ? fail(err) : done()));
+}
+
+function fetched(path) {
+  const found = webshore.fetched(shore, path);
+  if (!found) return null;
+  const [body, kind] = found.toJs();
+  found.destroy();
+  return {body, kind};
+}
+
+function blob(found) {
+  return URL.createObjectURL(new Blob([found.body], {type: found.kind}));
+}
+
+function render(html) {
+  const page = new DOMParser().parseFromString(html, "text/html");
+  document.replaceChild(page.documentElement, document.documentElement);
+  for (const el of document.querySelectorAll('[src^="/"]')) el.src = blob(fetched(el.getAttribute("src")));
+}
+
+function go(path) {
+  const found = fetched(path);
+  if (!found) return;
+  if (found.kind.startsWith("text/html")) render(new TextDecoder().decode(found.body));
+  else window.open(blob(found));
+}
+
+document.addEventListener("click", (event) => {
+  const link = event.target.closest('a[href^="/"]');
+  if (!link) return;
+  event.preventDefault();
+  go(link.getAttribute("href"));
+});
+
+document.addEventListener("submit", async (event) => {
+  event.preventDefault();
+  const said = event.submitter ? event.submitter.value : event.target.elements.say.value;
+  webshore.heard(shore, "say=" + encodeURIComponent(said));
+  go("/");
+  webshore.keep(COAST, KEPT, shipped);
+  await sync(false);
+});
+
+async function boot() {
+  pyodide = await loadPyodide();
+  pyodide.FS.mkdirTree(KEPT);
+  pyodide.FS.mount(pyodide.FS.filesystems.IDBFS, {}, KEPT);
+  await sync(true);
+  pyodide.unpackArchive(await (await fetch("coast.zip")).arrayBuffer(), "zip", {extractDir: COAST});
+  pyodide.runPython(`import sys; sys.path.insert(0, "${COAST}")`);
+  webshore = pyodide.pyimport("webshore");
+  shipped = webshore.halls(`${COAST}/exhibits`);
+  webshore.restore(KEPT, COAST);
+  shore = webshore.handler(pyodide.pyimport("tidepool").TidePool(), `${COAST}/shore.txt`);
+  go("/");
+}
+
+boot();
+</script>
+</body></html>

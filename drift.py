@@ -1,6 +1,5 @@
 """The pool drifting on a moving sea, drawn live in the terminal until a key is pressed."""
 
-import curses
 import math
 import time
 
@@ -31,6 +30,7 @@ def frame(words, t, weather, width, height):
 
 
 def watch(screen, words, weather):
+    import curses
     screen.nodelay(True)
     curses.curs_set(0)
     start = time.monotonic()
@@ -43,4 +43,5 @@ def watch(screen, words, weather):
 
 
 def drift(words, weather):
+    import curses
     curses.wrapper(watch, words, weather)

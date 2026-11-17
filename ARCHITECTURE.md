@@ -36,6 +36,13 @@ Built on those:
 
 Imports only point down this list, so nothing is circular.
 
+`index.html` runs `webshore` without a server, in the visitor's browser under
+Pyodide: it answers links with `fetched`, forms with `heard`, and after each
+command `keep`s the shore, bottles, guestbook and new halls in the browser's
+IndexedDB, which `restore` lays back on the next visit.
+`.github/workflows/pages.yml` publishes it to GitHub Pages on every push to
+`main`, with the coast zipped beside it as `coast.zip`.
+
 ## The shore's format
 
 `shore.txt` is a sequence of shells: a `~ tide N · YYYY-MM-DD ~` line (the UTC
